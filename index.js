@@ -6,7 +6,7 @@ var geekHaven_logo=document.getElementById("geekhaven_logo");
 $(document).ready(() => {
     let isDarkMode = localStorage.getItem('dark');
     if (isDarkMode === null)
-        {   geekHaven_logo.src="./Assets/geekhaven_lightmode1.png";
+        {   geekHaven_logo.src="./Assets/geekhaven_lightmode.png";
             return localStorage.setItem('dark', 0);
     }
     if (isDarkMode == 1) {
